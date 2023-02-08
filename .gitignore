@@ -398,3 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 Funny Face/.DS_Store
 Funny Face/javascript/.DS_Store
+FunnyFace/.DS_Store
+FunnyFace/javascript/.DS_Store
