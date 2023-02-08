@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+Funny Face/.DS_Store
+Funny Face/javascript/.DS_Store
