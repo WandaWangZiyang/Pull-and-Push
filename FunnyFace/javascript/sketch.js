@@ -71,7 +71,7 @@ function draw() {
   rect(120 + 3 * x, 100 - y / 2, 20, 20);
 
   //head
-  fill(78, 45, slider.value(), 180);
+  fill(slider.value()+78, 45, slider.value(), 180);
   stroke(255, 180);
   strokeWeight(2);
   ellipseMode(CENTER);
@@ -107,6 +107,7 @@ function draw() {
   noStroke(0);
   rectMode(CENTER);
   rect(240, 330, 10, 30, 10);
+  rect(240, 340, 30, 10, 10);
 
   //mouth
   fill(205,0,40);
