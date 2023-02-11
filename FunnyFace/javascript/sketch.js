@@ -1,18 +1,16 @@
 let canvas;
-let button;
-let slider;
 
 let displayState = 0;
 
 let x = 100;
 let y = 80;
-let eyeX1 = 150;
-let eyeX2 = 250;
-let eyeY = 150;
+let eyeX1 = 190;
+let eyeX2 = 290;
+let eyeY = 230;
 let mouthY = 300;
-let d = 0;
-let mw = 10;
 let brow = 0;
+let mw = 20;
+let mh = 90;
 
 function setup() {
   if(windowWidth < 600) {
@@ -127,11 +125,10 @@ function draw() {
     mw = 60;
     mh = 20;
   }
-
 }
 
-function addGUI()
-{
+
+function addGUI() {
   //add a slider
   slider = createSlider(70, 255, 0, 1);
   slider.addClass("slider");
@@ -152,13 +149,10 @@ function addGUI()
 
   //Adding a mouse pressed event listener to the button
   button.mousePressed(handleButtonPress);
-
 }
 
-function handleButtonPress()
-{
-    
- if (displayState < 1) {
+function handleButtonPress() {
+  if (displayState < 1) {
     displayState++;
   } else {
     displayState = 0;
